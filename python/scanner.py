@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# Created with HackerSploit tutorial
+
 import nmap
 
 scanner = nmap.PortScanner()
