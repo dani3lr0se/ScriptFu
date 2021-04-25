@@ -25,6 +25,6 @@ for x in range(startport, endport):
 	response = sr1(packet,timeout=0.5,verbose=0)
 	if response.haslayer(TCP) and response.getlayer(TCP).flag==0x12: # SYN ACK
 		print('Port '+str(x)+' is open!')
-	sr(IP(dst=target)/TCP(dport=response.sport,flag='R'),timeout=0.5,verboes=0) # RST
+	sr(IP(dst=target)/TCP(dport=response.sport,flag='R'),timeout=0.5,verbose=0) # RST
 
 print('Scan is complete!\n')
