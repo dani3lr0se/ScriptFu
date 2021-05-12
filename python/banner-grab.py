@@ -1,18 +1,8 @@
 #!/usr/bin/python3
 
+# Created with HackerSploit tutorial
+
 import socket
-# 1st method to do this script
-
-# s = socket.socket()
-
-# ip = input("Enter the IP: ")
-# port = str(input("Enter the port number: "))
-
-# s.connect((ip, int(port)))
-
-# print(s.recv(1024))
-
-# 2nd method to do this script
 
 def banner(ip, port):
     s = socket.socket()

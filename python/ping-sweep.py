@@ -5,7 +5,7 @@ import os
 import multiprocessing
 import sys
 
-nrange = "123.456.789." # replace the example ip with the ip being scanned #
+nrange = "123.456.789." # Change the IP!
 
 for i in range(1, 254):
     address = nrange + str(i)

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
+# Simple file sorting script. Customize to fit your needs.
+
 filenames = set()
 
-# replace "example_log.txt" with an actual log file #
-
-with open(r"example_log.txt") as f:
+with open(r"example_log.txt") as f: # Change the file name!
     for line in f:
         end = line.rfind(".js") + 3 # 3 = len(".js")
         start = line.rfind("/", 0, end) + 1 # 1 = len("/")

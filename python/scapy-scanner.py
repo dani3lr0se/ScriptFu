@@ -8,7 +8,7 @@ logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 import sys
 from scapy.all import *
 
-if len(sys.argv) !=4: # python ScapyScanner.py 127.0.0.1 1 100
+if len(sys.argv) !=4: # python scapy-scanner.py 127.0.0.1 1 100
 	print("Usage: %s target startport endport"%(sys.argv[0]))
 	sys.exit(0)
 

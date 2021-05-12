@@ -6,7 +6,7 @@ import dns.resolver
 
 # replace the example ip address and domain name with an actual ip and domain #
 
-z = dns.zone.from_xfr(dns.query.xfr('123.456.789.10', 'example.com'))
+z = dns.zone.from_xfr(dns.query.xfr('123.456.789.10', 'example.com')) # Change these!
 names = z.nodes.keys()
 names.sort()
 for n in names:
