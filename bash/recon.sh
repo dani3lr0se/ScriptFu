@@ -2,9 +2,6 @@
 
 # Script runs nmap, gobuster, and whatweb on a host and saves results into results file
 
-
-#!/bin/bash
-
 if [ -z "$1" ]
 then
         echo "Usage: ./recon.sh <IP>"
