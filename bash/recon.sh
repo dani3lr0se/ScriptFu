@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# Script runs nmap, gobuster, and whatweb on a host and saves results into results file
+# Created this while following along with a Null Byte tutorial
+
+# This runs nmap, gobuster, and whatweb on a host and saves results into results file
 
 if [ -z "$1" ]
 then
