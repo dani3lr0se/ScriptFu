@@ -76,4 +76,4 @@ Port scanner using socket library, and scans first 1000 ports. Output also retur
 
 Example: `./scapy-scanner.py`
 
-PCreated with Cristi Vlad tutorial. Port scanner built with the Scapy library. Run and follow the prompts.
+Created with Cristi Vlad tutorial. Port scanner built with the Scapy library. Run and follow the prompts.
