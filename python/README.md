@@ -44,7 +44,7 @@ Simple file sorting script. Customize to fit your needs. Change the name of the 
 
 Example: `./nmap-scanner.py`
 
-Created with HackerSploit tutorial. Follow the prompts to run the nmap scan.
+Created with HackerSploit tutorial. Port scanner using nmap library. Follow the prompts to run the scan.
 
 ***
 
@@ -60,5 +60,20 @@ Simple ping sweep. Change the IP in the script before running.
 
 Example: `./port-scanner.py`
 
-Created with Cristi Vlad tutorial. Port scanner built with the Scapy library. Run and follow the prompts.
+Created with HackerSploit tutorial. Port scanner using socket library and prompts for input. Run and follow the prompts.
 
+***
+
+### port-scanner1000.py
+
+Example: `./port-scanner1000.py`
+
+Port scanner using socket library, and scans first 1000 ports. Output also returns in color. Run and follow the prompts.
+
+***
+
+### scapy-scanner.py
+
+Example: `./scapy-scanner.py`
+
+PCreated with Cristi Vlad tutorial. Port scanner built with the Scapy library. Run and follow the prompts.
